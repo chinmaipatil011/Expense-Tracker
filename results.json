@@ -1,0 +1,211 @@
+{
+  "provider": "gemini",
+  "model": "gemini-2.0-flash",
+  "cases": 20,
+  "correct": 0,
+  "accuracy": 0.0,
+  "average_response_seconds": 0.791,
+  "tool_call_errors": 20,
+  "results": [
+    {
+      "id": 1,
+      "question": "Add an expense of 200 in food with note lunch.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.918,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 2,
+      "question": "Record 85 for transport.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.761,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 3,
+      "question": "I spent 120 on groceries, save it.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.807,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 4,
+      "question": "Add 45 for coffee.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.751,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 5,
+      "question": "Save 999 as shopping.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.78,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 6,
+      "question": "Record 60 for snacks.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.763,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 7,
+      "question": "Add 150 for books.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.77,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 8,
+      "question": "I paid 75 for bus fare, category travel.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.783,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 9,
+      "question": "Add 310 for utilities.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.786,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 10,
+      "question": "Record 25 for tea.",
+      "expected_tool": "add_expense",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.811,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 11,
+      "question": "What is 25 + 35? Use calculator.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.742,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 12,
+      "question": "Calculate (10 + 5) * 3.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 1.03,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 13,
+      "question": "Use calculator for 144 / 12.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.765,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 14,
+      "question": "Calculate 7 squared using the calculator.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.81,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 15,
+      "question": "What is 100 minus 37? Calculate it.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.779,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 16,
+      "question": "Calculate 9 * 8.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.715,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 17,
+      "question": "Use calculator: (50-8)/2.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.741,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 18,
+      "question": "Calculate 81 / 9.",
+      "expected_tool": "calculate",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.787,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 19,
+      "question": "How much have I spent by category in the last 7 days? Use the summary tool.",
+      "expected_tool": "get_expense_summary",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.758,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 20,
+      "question": "Show my expense totals for the past 30 days by category.",
+      "expected_tool": "get_expense_summary",
+      "tools_used": [],
+      "answer": "",
+      "seconds": 0.77,
+      "passed": false,
+      "error": "Error calling model 'gemini-2.0-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    }
+  ]
+}
